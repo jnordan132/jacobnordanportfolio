@@ -3,7 +3,6 @@ function About() {
     <div className="container aboutSkills">
       <div className="container about">
         <h1>About Me</h1>
-        <br />
         <div className="aboutMe">
           <p>
             My name is Jacob Nordan, I'm from Wilmington, NC, and I'm a Full
@@ -21,7 +20,6 @@ function About() {
       </div>
       <div className="container skills">
         <h1>My Skills</h1>
-        <br />
         <div className="listFlex">
           <ul className="list">
             <li>

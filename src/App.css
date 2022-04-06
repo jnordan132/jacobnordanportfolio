@@ -114,28 +114,32 @@ ul {
 /* HEADER */
 
 .header {
-  display: flex;
   padding-top: 3%;
-  padding-bottom: 3%;
+  padding-bottom: 26rem;
+  width: 100%;
 }
 
 .profilePic img {
+  float: left;
   height: 350px;
   width: 350px;
   border-radius: 50%;
   border: 2px solid black;
+  margin-left: 10rem
 }
 
 .intro {
+  float: right;
+  width: 40%;
   text-align: center;
   margin-top: 6%;
-  margin-right: auto;
+  margin-right: 10rem
 }
 
 /* ABOUT/SKILLS */
 
 .aboutSkills {
-  padding-top: 3%;
+  /* padding-top: 3%; */
   padding-bottom: 3%;
   border-radius: 6%;
 }
@@ -150,6 +154,10 @@ ul {
   width: 50%;
   border-radius: 6%;
   border: 1px solid black;
+}
+
+.about h1 {
+  padding-bottom: 2%;
 }
 
 .aboutMe {
@@ -169,6 +177,10 @@ ul {
   border: 1px solid black;
 }
 
+.skills h1 {
+  padding-bottom: 2%;
+}
+
 .skills li {
   list-style: none;
 }
@@ -179,7 +191,6 @@ ul {
 }
 
 /* EXPERIENCE */
-
 
 /* MEDIA QUERY */
 
@@ -204,7 +215,47 @@ ul {
 }
 
 /* HEADER */
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1399px) {
+  .intro {
+    margin-top: 8%;
+    width: 36%;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .header {
+    padding-bottom: 5rem;
+  }
+  .profilePic {
+    display: flex;
+  }
+  .profilePic img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .intro {
+    float: none;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 991px) {
+  .intro {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header {
+    padding-bottom: 3rem;
+  }
+  .intro {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 452px) {
+  .intro {
+    width: 80%;
+  }
 }
 
 /* ABOUT/SKILLS */
@@ -212,8 +263,20 @@ ul {
   .aboutSkills {
     width: 90%;
   }
+  .about h1 {
+    padding-top: 2%;
+  }
+  .skills h1 {
+    padding-top: 2%;
+  }
   .skills img {
     width: 53px;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  .skills img {
+    margin: 3px;
   }
 }
 
@@ -226,5 +289,16 @@ ul {
     float: left;
     clear: left;
     width: 100%;
+  }
+  .skills img {
+    margin: 9px;
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .skills img {
+    width: 45px;
+    margin: 6px;
   }
 }
