@@ -6,13 +6,8 @@ html {
   padding: 0;
 }
 
-a {
-  text-decoration: none;
-  color: rgba(0, 0, 0);
-}
-
 a:hover {
-  color: rgba(0, 0, 0, 0.459);
+  color: rgba(255, 255, 255, 0.459);
   transition: all 0.2s ease-in-out;
 }
 
@@ -23,15 +18,15 @@ a:hover {
 /* NAV SECTION */
 
 .container {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .navbar-nav {
   margin-left: 75%;
 }
 
-.nav-item a:hover {
-  color: rgba(0, 0, 0, 0.5);
+.nav-item a {
+  font-weight:500;
 }
 
 .navbar-toggler {
@@ -119,9 +114,22 @@ a:hover {
   background: linear-gradient( 263deg, rgba(252,74,74,1) 0%, rgba(0,212,255,1) 100% );
 }
 
+/* ABOUT */
+
+.profilePic img {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  margin-left: 15%;
+  margin-top: 3%;
+  border: 2px solid black;
+}
+
+
 
 /* MEDIA QUERY */
 
+/* NAV */
 @media screen and (max-width: 1400px) {
   .navbar-nav {
     margin-left: 71.25%;
