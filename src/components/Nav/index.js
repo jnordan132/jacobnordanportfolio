@@ -1,5 +1,6 @@
 function Nav() {
   return (
+      <div className="nav">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
@@ -43,6 +44,7 @@ function Nav() {
           </div>
         </div>
       </nav>
+    </div>
     </div>
   );
 }

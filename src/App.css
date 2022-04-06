@@ -17,7 +17,7 @@ a:hover {
 
 /* NAV SECTION */
 
-.container {
+.navbar {
   border-bottom: 1px solid rgb(0, 0, 0);
 }
 
@@ -114,15 +114,44 @@ a:hover {
   background: linear-gradient( 263deg, rgba(252,74,74,1) 0%, rgba(0,212,255,1) 100% );
 }
 
-/* ABOUT */
+/* HEADER */
+
+.header {
+  display: flex;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-left: 15%;
+}
+
+.intro {
+  width: 33%;
+  text-align: center;
+  margin-top: 6%;
+  margin-left: 25%;
+  margin-right: auto;
+}
 
 .profilePic img {
   height: 350px;
   width: 350px;
+  margin-left: 50%;
   border-radius: 50%;
-  margin-left: 15%;
-  margin-top: 3%;
   border: 2px solid black;
+}
+
+/* ABOUT */
+
+.about {
+  padding-top: 3%;
+  text-align: center;
+}
+
+.aboutMe {
+  width: 50%;
+  padding-bottom: 3%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
