@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/jacobnordanportfolio/static/css/main.7bb26d21.css",
+    "main.js": "/jacobnordanportfolio/static/js/main.3dcd47fb.js",
+    "static/js/787.21b8239c.chunk.js": "/jacobnordanportfolio/static/js/787.21b8239c.chunk.js",
+    "static/media/JacobNordan-2.jpg": "/jacobnordanportfolio/static/media/JacobNordan-2.a5ab4257733fb3a875c5.jpg",
+    "index.html": "/jacobnordanportfolio/index.html",
+    "main.7bb26d21.css.map": "/jacobnordanportfolio/static/css/main.7bb26d21.css.map",
+    "main.3dcd47fb.js.map": "/jacobnordanportfolio/static/js/main.3dcd47fb.js.map",
+    "787.21b8239c.chunk.js.map": "/jacobnordanportfolio/static/js/787.21b8239c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bb26d21.css",
+    "static/js/main.3dcd47fb.js"
+  ]
+}
