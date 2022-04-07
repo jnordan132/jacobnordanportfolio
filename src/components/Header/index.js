@@ -1,10 +1,10 @@
-import pfp from "../../assets/JacobNordan-2.jpg";
+import pfp from "../../assets/JacobNordan-3.jpg";
 
 function Header() {
   return (
     <div className="container header">
       <div className="profilePic">
-        <img src={pfp}></img>
+        <img alt="picture of jacob nordan" src={pfp}></img>
       </div>
       <div className="intro">
         <h1>
@@ -13,7 +13,7 @@ function Header() {
         </h1>
       </div>
     </div>
-  );
-}
+  )
+};
 
 export default Header;
