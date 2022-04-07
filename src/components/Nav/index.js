@@ -48,7 +48,6 @@ function Nav() {
                     Portfolio
                   </a>
                 </li>
-                <div class="rightSide">
                   <li class="nav-item">
                     <a
                       class="nav-link active"
@@ -71,7 +70,6 @@ function Nav() {
                       LinkedIn
                     </a>
                   </li>
-                </div>
               </ul>
             </div>
           </div>

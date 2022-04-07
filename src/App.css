@@ -23,12 +23,7 @@ ul {
 }
 
 .navbar-nav {
-  margin-left: 41rem;
-}
-
-.rightSide {
-  display: flex;
-  margin-left: 2.16rem;
+  margin-left: auto;
 }
 
 .nav-item a {
@@ -267,23 +262,8 @@ ul {
 
 /* MEDIA QUERIES */
 
-/* NAV */
-
-@media screen and (max-width: 1400px) {
-  .navbar-nav {
-    margin-left: 71.25%;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .navbar-nav {
-    margin-left: 64.5%;
-  }
-}
-
 @media screen and (max-width: 991px) {
   .navbar-nav {
-    margin-left: 0;
     text-align: center;
   }
 }
