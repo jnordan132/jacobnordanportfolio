@@ -4,6 +4,7 @@ body,
 html {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 ul {
@@ -22,7 +23,12 @@ ul {
 }
 
 .navbar-nav {
-  margin-left: 75%;
+  margin-left: 41rem;
+}
+
+.rightSide {
+  display: flex;
+  margin-left: 2.16rem;
 }
 
 .nav-item a {
@@ -114,7 +120,7 @@ ul {
 /* HEADER */
 
 .header {
-  padding-top: 3%;
+  padding-top: 4rem;
   padding-bottom: 26rem;
   width: 100%;
 }
@@ -125,7 +131,7 @@ ul {
   width: 350px;
   border-radius: 50%;
   border: 2px solid black;
-  margin-left: 10rem
+  margin-left: 10rem;
 }
 
 .intro {
@@ -133,13 +139,13 @@ ul {
   width: 40%;
   text-align: center;
   margin-top: 6%;
-  margin-right: 10rem
+  margin-right: 10rem;
 }
 
 /* ABOUT/SKILLS */
 
 .aboutSkills {
-  /* padding-top: 3%; */
+  padding-top: 1%;
   padding-bottom: 3%;
   border-radius: 6%;
 }
@@ -192,9 +198,77 @@ ul {
 
 /* EXPERIENCE */
 
-/* MEDIA QUERY */
+.experience {
+  margin-top: 23rem;
+  border-radius: 6%;
+  border: 1px solid black;
+  padding-top: 1%;
+  width: 70%;
+}
+
+.experience h1 {
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.experience .container {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.timeline ul {
+  list-style: none;
+}
+.timeline ul li {
+  padding: 20px;
+  background-color: #e0e0e0;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.timeline ul li:last-child {
+  margin-bottom: 0;
+}
+.timeline-content h1 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.timeline-content p {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+}
+.timeline-content .date {
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+/* FOOTER */
+
+.content {
+  padding-bottom: 4rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+/* MEDIA QUERIES */
 
 /* NAV */
+
 @media screen and (max-width: 1400px) {
   .navbar-nav {
     margin-left: 71.25%;
@@ -215,6 +289,7 @@ ul {
 }
 
 /* HEADER */
+
 @media screen and (max-width: 1399px) {
   .intro {
     margin-top: 8%;
@@ -259,6 +334,7 @@ ul {
 }
 
 /* ABOUT/SKILLS */
+
 @media screen and (max-width: 1199px) {
   .aboutSkills {
     width: 90%;
@@ -296,9 +372,186 @@ ul {
   }
 }
 
+@media screen and (max-width: 616px) {
+  .skills img {
+    width: 60px;
+    margin: 7px;
+  }
+}
+
+@media screen and (max-width: 616px) {
+  .skills img {
+    width: 55px;
+    margin: 6px;
+  }
+}
+
 @media screen and (max-width: 456px) {
   .skills img {
-    width: 45px;
+    width: 50px;
     margin: 6px;
+  }
+}
+
+@media screen and (max-width: 416px) {
+  .skills img {
+    width: 46px;
+    margin: 5px;
+  }
+}
+
+/* EXPERIENCE */
+
+@media only screen and (min-width: 768px) {
+  .timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background-color: gray;
+  }
+  .timeline ul li {
+    width: 50%;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .timeline ul li:nth-child(odd) {
+    float: left;
+    clear: right;
+    transform: translateX(-30px);
+    border-radius: 20px 0px 20px 20px;
+  }
+  .timeline ul li:nth-child(even) {
+    float: right;
+    clear: left;
+    transform: translateX(30px);
+    border-radius: 0px 20px 20px 20px;
+  }
+  .timeline ul li::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    top: 0px;
+  }
+  .timeline ul li:nth-child(odd)::before {
+    transform: translate(50%, -50%);
+    right: -30px;
+  }
+  .timeline ul li:nth-child(even)::before {
+    transform: translate(-50%, -50%);
+    left: -30px;
+  }
+  .timeline-content .date {
+    position: absolute;
+    top: -30px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .experience {
+    margin-top: 26rem;
+    padding-top: 2%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .experience {
+    margin-top: 50rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .experience {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .experience {
+    margin-top: 51rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .experience {
+    margin-top: 51.5rem;
+  }
+}
+
+@media screen and (max-width: 616px) {
+  .experience {
+    margin-top: 46rem;
+  }
+}
+
+@media screen and (max-width: 595px) {
+  .experience {
+    width: 90%;
+    margin-top: 45.5rem;
+  }
+}
+
+@media screen and (max-width: 564px) {
+  .experience {
+    margin-top: 46.5rem;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .experience {
+    margin-top: 47.5rem;
+  }
+}
+
+@media screen and (max-width: 504px) {
+  .experience {
+    margin-top: 48.5rem;
+  }
+}
+
+@media screen and (max-width: 477px) {
+  .experience {
+    margin-top: 51rem;
+  }
+  .timeline {
+    margin: 0;
+    padding: 0;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .experience {
+    margin-top: 50rem;
+  }
+}
+
+@media screen and (max-width: 437px) {
+  .experience {
+    margin-top: 51rem;
+  }
+}
+
+@media screen and (max-width: 416px) {
+  .experience {
+    margin-top: 50rem;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .experience {
+    margin-top: 51.5rem;
+  }
+}
+
+@media screen and (max-width: 396px) {
+  .experience {
+    margin-top: 52.5rem;
   }
 }

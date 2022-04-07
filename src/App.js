@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import Header from "./components/Header";
 import About from "./components/About";
 import Experience from "./components/Experience";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <Header />
       <About />
       <Experience />
+      <br />
+      <Footer />
     </div>
   );
 }
