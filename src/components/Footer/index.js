@@ -8,7 +8,7 @@ function Footer() {
     <div className="footer">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light"></nav>
-        <div class="content">
+        <div class="footerContent">
           <a
             href="https://github.com/jnordan132"
             target="_blank"
