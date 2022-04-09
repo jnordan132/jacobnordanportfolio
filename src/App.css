@@ -268,7 +268,7 @@ ul {
   align-items: center;
   overflow: hidden;
   padding: 1rem;
-  height: 94.5%;
+  height: 12.9rem;
   width: 100%;
   text-align: center;
   color: whitesmoke;
@@ -281,8 +281,8 @@ ul {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  background-size: contain;
+  height: 103%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 0;
   transition: transform calc(var(--d) * 1.5) var(--e);
@@ -322,19 +322,39 @@ ul {
 }
 
 .card:nth-child(1):before {
-  background-image: url(./assets/projects/Feedit.png);
+  background-image: url(./assets/Shoe-Fanatic.png);
 }
 
 .card:nth-child(2):before {
-  background-image: url(./assets/projects/Shoe-Fanatic.png);
+  background-image: url(./assets/KB.png);
 }
 
 .card:nth-child(3):before {
-  background-image: url(https://images.unsplash.com/photo-1545243424-0ce743321e11?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-image: url(./assets/PasswordGen.png);
 }
 
 .card:nth-child(4):before {
-  background-image: url(https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-image: url(./assets/Feedit.png);
+}
+
+.card:nth-child(5):before {
+  background-image: url(./assets/weather.png);
+}
+
+.card:nth-child(6):before {
+  background-image: url(./assets/codeQuiz.png);
+}
+
+.card:nth-child(7):before {
+  background-image: url(./assets/fitness.jpg);
+}
+
+.card:nth-child(8):before {
+  background-image: url(./assets/NoteTaker.png);
+}
+
+.card:nth-child(9):before {
+  background-image: url(./assets/employeeTracker.jpg);
 }
 
 .content {
@@ -343,19 +363,13 @@ ul {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding: .5rem;
+  padding: 0.5rem;
   transition: transform var(--d) var(--e);
   z-index: 1;
 }
 
 .content > * + * {
   margin-top: 1rem;
-}
-
-.title {
-  font-size: 1.3rem;
-  font-weight: bold;
-  line-height: 1.2;
 }
 
 .copy {
@@ -367,24 +381,29 @@ ul {
 
 .btn {
   cursor: pointer;
-  /* margin-top: 1.5rem; */
   padding: 0.75rem 1.5rem;
   font-size: 0.65rem;
   font-weight: bold;
   letter-spacing: 0.025rem;
   text-transform: uppercase;
-  color: white;
-  background-color: black;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   border: none;
 }
+
+.flex .btn {
+  margin: 0.5rem;
+}
+
 .btn:hover {
-  background-color: #0d0d0d;
+  background-color: #a7a7a7;
+  transition: 0.5s;
 }
 
 .btn:focus {
   outline: 1px dashed yellow;
   outline-offset: 3px;
-} 
+}
 
 /* FOOTER */
 
@@ -404,6 +423,8 @@ ul {
 }
 
 /* MEDIA QUERIES */
+
+/* NAV */
 
 @media screen and (max-width: 991px) {
   .navbar-nav {
@@ -730,22 +751,40 @@ ul {
 
 /* PORTFOLIO */
 
-@media screen and (min-width: 600px) {
-  /* .page-content {
-    grid-template-columns: repeat(2, 1fr);
-  } */
+@media screen and (max-width: 1399px) {
+  .page-content {
+    grid-template-columns: auto auto;
+  }
+  .card {
+    height: 16.30rem;
+  }
 }
 
-@media screen and (min-width: 800px) {
-  /* .page-content {
-    grid-template-columns: repeat(4, 1fr);
-  } */
+@media screen and (max-width: 1199px) {
+  .card {
+    height: 13.25rem;
+  }
 }
 
-@media screen and (min-width: 600px) {
-  /* .card {
-    height: 350px;
-  } */
+@media screen and (max-width: 991px) {
+  .card {
+    height: 10rem;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .page-content {
+    grid-template-columns: auto;
+  }
+  .card {
+    height: 15rem;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .card {
+    /* height: 14rem; */
+  }
 }
 
 @media screen and (hover: hover) and (min-width: 600px) {

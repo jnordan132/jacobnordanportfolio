@@ -48,28 +48,6 @@ function Nav() {
                     Portfolio
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://github.com/jnordan132"
-                  >
-                    Github
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://www.linkedin.com/in/jacob-nordan/"
-                  >
-                    LinkedIn
-                  </a>
-                </li>
               </ul>
             </div>
           </div>
