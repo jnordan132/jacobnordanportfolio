@@ -19,7 +19,7 @@ function Portfolio() {
                   <button className="btn">View Code</button>
                 </a>
                 <a
-                  href="https://mern-redux-shopping.herokuapp.com/"
+                  href="https://limitless-bastion-50224.herokuapp.com/"
                   target="_blank"
                   rel="noreferrer"
                 >

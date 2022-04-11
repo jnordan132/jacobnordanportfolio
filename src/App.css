@@ -781,9 +781,18 @@ ul {
   }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 550px) {
+  .card:before {
+    background-size: contain;
+  }
   .card {
-    /* height: 14rem; */
+    /* height: 100%; */
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .card {
+    height: 100%;
   }
 }
 
