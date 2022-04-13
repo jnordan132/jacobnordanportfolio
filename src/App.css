@@ -777,16 +777,19 @@ ul {
     grid-template-columns: auto;
   }
   .card {
-    height: 15rem;
+    height: 20rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    height: 100%;
   }
 }
 
 @media screen and (max-width: 550px) {
   .card:before {
-    background-size: contain;
-  }
-  .card {
-    /* height: 100%; */
+    background-size: cover;
   }
 }
 
@@ -795,6 +798,52 @@ ul {
     height: 100%;
   }
 }
+
+@media screen and (max-width: 478px) {
+  .card {
+    height: 100%;
+  }
+  .card:before {
+    background-size: cover;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 467px) {
+  .card {
+    max-height: 95%;
+    max-width: 100%;
+  }
+  .card:before {
+    background-size: 100%;
+  }
+}
+
+@media screen and (max-width: 467px) {
+  .card {
+    max-height: 90%;
+    max-width: 100%;
+  }
+  .page-content {
+    grid-gap: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .card {
+    max-height: 80%;
+    max-width: 100%;
+  }
+  .flex {
+    margin-top: 0;
+    margin-bottom: 1.5rem
+  }
+  .page-content {
+    grid-gap: 0;
+  }
+}
+
+
 
 @media screen and (hover: hover) and (min-width: 600px) {
   .card:after {
