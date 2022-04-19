@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 function Nav() {
   return (
     <div className="nav">
@@ -21,16 +23,32 @@ function Nav() {
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active">About</a>
+                  <a class="nav-link active">
+                    <Link to="about" spy={true}>
+                      About
+                    </Link>
+                  </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active">Skills</a>
+                  <a class="nav-link active">
+                    <Link to="skills" spy={true}>
+                      Skills
+                    </Link>
+                  </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active">Experience</a>
+                  <a class="nav-link active">
+                    <Link to="experience" spy={true}>
+                      Experience
+                    </Link>
+                  </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active">Portfolio</a>
+                  <a class="nav-link active">
+                    <Link to="portfolio" spy={true}>
+                      Portfolio
+                    </Link>
+                  </a>
                 </li>
               </ul>
             </div>

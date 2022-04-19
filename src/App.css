@@ -581,11 +581,19 @@ ul {
   .experience {
     margin-top: 46rem;
   }
+  .text-center p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 @media screen and (max-width: 548px) {
   .experience {
     margin-top: 48rem;
+  }
+  .text-center p {
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
 }
 
@@ -698,6 +706,7 @@ ul {
   }
   .page-content {
     grid-gap: 0;
+    margin-bottom: 2rem;
   }
 }
 
