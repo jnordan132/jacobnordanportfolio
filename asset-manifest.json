@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jacobnordanportfolio/static/css/main.76ff65a2.css",
-    "main.js": "/jacobnordanportfolio/static/js/main.7e19aa58.js",
+    "main.css": "/jacobnordanportfolio/static/css/main.fcc30b7c.css",
+    "main.js": "/jacobnordanportfolio/static/js/main.3afc01a9.js",
     "static/js/787.21b8239c.chunk.js": "/jacobnordanportfolio/static/js/787.21b8239c.chunk.js",
     "static/media/Shoe-Fanatic.png": "/jacobnordanportfolio/static/media/Shoe-Fanatic.4ef7e3259f9d5ac94574.png",
     "static/media/JacobNordan-3.jpg": "/jacobnordanportfolio/static/media/JacobNordan-3.eb0f07284b7ac196edc9.jpg",
@@ -14,12 +14,12 @@
     "static/media/codeQuiz.png": "/jacobnordanportfolio/static/media/codeQuiz.6bffb4c765009680366c.png",
     "static/media/NoteTaker.png": "/jacobnordanportfolio/static/media/NoteTaker.b72a96bf8a39949081eb.png",
     "index.html": "/jacobnordanportfolio/index.html",
-    "main.76ff65a2.css.map": "/jacobnordanportfolio/static/css/main.76ff65a2.css.map",
-    "main.7e19aa58.js.map": "/jacobnordanportfolio/static/js/main.7e19aa58.js.map",
+    "main.fcc30b7c.css.map": "/jacobnordanportfolio/static/css/main.fcc30b7c.css.map",
+    "main.3afc01a9.js.map": "/jacobnordanportfolio/static/js/main.3afc01a9.js.map",
     "787.21b8239c.chunk.js.map": "/jacobnordanportfolio/static/js/787.21b8239c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76ff65a2.css",
-    "static/js/main.7e19aa58.js"
+    "static/css/main.fcc30b7c.css",
+    "static/js/main.3afc01a9.js"
   ]
 }
