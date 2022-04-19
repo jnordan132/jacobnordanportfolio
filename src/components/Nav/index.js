@@ -21,32 +21,16 @@ function Nav() {
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#about">
-                    About
-                  </a>
+                  <a class="nav-link active">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#skills">
-                    Skills
-                  </a>
+                  <a class="nav-link active">Skills</a>
                 </li>
                 <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="#experience"
-                  >
-                    Experience
-                  </a>
+                  <a class="nav-link active">Experience</a>
                 </li>
                 <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="#portfolio"
-                  >
-                    Portfolio
-                  </a>
+                  <a class="nav-link active">Portfolio</a>
                 </li>
               </ul>
             </div>
