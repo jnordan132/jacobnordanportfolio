@@ -9,10 +9,14 @@ ul {
   display: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* NAV SECTION */
 
 .navbar {
-  border-bottom: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .navbar-nav {
@@ -23,11 +27,24 @@ ul {
   font-weight: 500;
 }
 
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.nav-link .active {
+  color: white;
+}
+
 .navbar-toggler {
   width: 20px;
   height: 20px;
   position: relative;
   transition: 0.5s ease-in-out;
+}
+
+.active {
+  color: white;
 }
 
 .navbar-toggler,
@@ -143,7 +160,7 @@ ul {
   float: left;
   width: 50%;
   border-radius: 6%;
-  background-color: rgb(219, 219, 219);
+  background-color: rgb(88, 88, 88);
   /* border: 1px solid black; */
 }
 
@@ -165,7 +182,7 @@ ul {
   float: right;
   width: 40%;
   border-radius: 6%;
-  background-color: rgb(219, 219, 219);
+  background-color: rgb(88, 88, 88);
   /* border: 1px solid black; */
 }
 
@@ -182,67 +199,6 @@ ul {
   margin: 8px;
 }
 
-/* EXPERIENCE */
-
-.workexperience {
-  display: flex;
-  align-items: center;
-  margin: 0.75rem;
-  box-shadow: 0 7px 2px -5px rgba(0, 0, 0, 0.26);
-  background-color: rgb(219, 219, 219);
-}
-.workexperience.dif {
-  box-shadow: none;
-}
-
-.card-well {
-  background-color: #fff;
-  padding-top: 15px;
-  background-color: rgb(219, 219, 219);
-}
-
-.nomargin {
-  margin: 0;
-}
-
-.experience {
-  margin-top: 23rem;
-  margin-bottom: 1.5rem;
-  border-radius: 6%;
-  background-color: rgb(219, 219, 219);
-  /* border: 1px solid black; */
-  padding-top: 1%;
-  padding-bottom: 3rem;
-  width: 55%;
-}
-
-.experience h1 {
-  text-align: center;
-  padding-bottom: 2%;
-}
-
-.text-center p {
-  padding: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.inline {
-  display: inline-flex;
-}
-
-.inline li {
-  margin-left: 1rem;
-}
-
-.experience .container {
-  /* min-height: 80vh; */
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 /* PORTFOLIO */
 
 .page-content {
@@ -252,13 +208,21 @@ ul {
   padding: 1rem;
   width: 100%;
   margin: 0 auto;
+  margin-top: 2rem;
   margin-bottom: 4rem;
   font-family: var(--font-sans);
 }
 
 .portfolio h1 {
   text-align: center;
-  padding-top: 2%;
+}
+
+.portfolio {
+  margin-top: 22rem;
+  border-radius: 6%;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .card {
@@ -270,8 +234,8 @@ ul {
   height: 12.9rem;
   width: 100%;
   text-align: center;
-  color: whitesmoke;
-  background-color: whitesmoke;
+  color: white;
+  background-color: black;
 }
 
 .card:before {
@@ -402,6 +366,67 @@ ul {
 .btn:focus {
   outline: 1px dashed yellow;
   outline-offset: 3px;
+}
+
+/* EXPERIENCE */
+
+.workexperience {
+  display: flex;
+  align-items: center;
+  margin: 0.75rem;
+  box-shadow: 0 7px 2px -5px rgb(255, 255, 255);
+  background-color: rgb(88, 88, 88);
+}
+.workexperience.dif {
+  box-shadow: none;
+}
+
+.card-well {
+  background-color: #fff;
+  padding-top: 15px;
+  background-color: rgb(88, 88, 88);
+}
+
+.nomargin {
+  margin: 0;
+}
+
+.experience {
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  border-radius: 6%;
+  background-color: rgb(88, 88, 88);
+  /* border: 1px solid black; */
+  padding-top: 1%;
+  padding-bottom: 3rem;
+  width: 65%;
+}
+
+.experience h1 {
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.text-center p {
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.inline {
+  display: inline-flex;
+}
+
+.inline li {
+  margin-left: 1rem;
+}
+
+.experience .container {
+  /* min-height: 80vh; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* FOOTER */
@@ -561,27 +586,12 @@ ul {
 @media screen and (max-width: 1199px) {
   .experience {
     width: 87%;
-    margin-top: 26rem;
+    margin-top: 4rem;
     margin-bottom: 2rem;
   }
 }
 
-@media screen and (max-width: 991px) {
-  .experience {
-    margin-top: 49.5rem;
-  }
-}
-
-@media screen and (max-width: 784px) {
-  .experience {
-    margin-top: 51rem;
-  }
-}
-
 @media screen and (max-width: 617px) {
-  .experience {
-    margin-top: 46rem;
-  }
   .text-center p {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -589,30 +599,9 @@ ul {
 }
 
 @media screen and (max-width: 548px) {
-  .experience {
-    margin-top: 48rem;
-  }
   .text-center p {
     padding-left: 0rem;
     padding-right: 0rem;
-  }
-}
-
-@media screen and (max-width: 477px) {
-  .experience {
-    margin-top: 49.5rem;
-  }
-}
-
-@media screen and (max-width: 476px) {
-  .experience {
-    margin-top: 50rem;
-  }
-}
-
-@media screen and (max-width: 395px) {
-  .experience {
-    margin-top: 52.5rem;
   }
 }
 
@@ -633,9 +622,21 @@ ul {
   }
 }
 
+@media screen and (max-width: 1062px) {
+  .card {
+    height: 13.25rem;
+  }
+  .portfolio h1 {
+    margin-top: 25rem;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .card {
     height: 10rem;
+  }
+  .portfolio h1 {
+    margin-top: 49rem;
   }
 }
 
@@ -651,6 +652,12 @@ ul {
 @media screen and (max-width: 767px) {
   .card {
     height: 100%;
+  }
+}
+
+@media screen and (max-width: 613px) {
+  .portfolio h1 {
+    margin-top: 45rem;
   }
 }
 

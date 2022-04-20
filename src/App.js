@@ -13,8 +13,9 @@ function App() {
       <Nav />
       <Header />
       <About />
-      <Experience />
       <Portfolio />
+      <Experience />
+      {/* <Portfolio /> */}
       <Footer />
     </div>
   );

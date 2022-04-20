@@ -11,6 +11,8 @@ html {
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(90deg, #000000, #2b2b2b);
+  color: white;
 }
 
 code {

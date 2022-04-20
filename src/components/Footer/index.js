@@ -14,17 +14,26 @@ function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <GitHubIcon sx={{ width: 40, height: 40 }} />
+            <GitHubIcon
+              alt="github"
+              sx={{ width: 40, height: 40, color: "white" }}
+            />
           </a>
           <a
             href="https://www.linkedin.com/in/jacob-nordan/"
             target="_blank"
             rel="noreferrer"
           >
-            <LinkedInIcon sx={{ width: 40, height: 40 }} />
+            <LinkedInIcon
+              alt="linkedin"
+              sx={{ width: 40, height: 40, color: "white" }}
+            />
           </a>
           <a href="mailto:jacob.nordan113322@gmail.com">
-            <AlternateEmailIcon sx={{ width: 40, height: 40 }} />
+            <AlternateEmailIcon
+              alt="gmail"
+              sx={{ width: 40, height: 40, color: "white" }}
+            />
           </a>
         </div>
         <p>© 2022 Jacob Nordan - All rights reserved.</p>
