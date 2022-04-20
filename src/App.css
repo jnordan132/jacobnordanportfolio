@@ -599,6 +599,9 @@ a {
     padding-left: 0rem;
     padding-right: 0rem;
   }
+  .experience {
+    margin-top: -3rem;
+  }
 }
 
 /* PORTFOLIO */
@@ -710,7 +713,18 @@ a {
     grid-gap: 0.3rem;
   }
 }
-@media screen and (max-width: 442px) {
+
+@media screen and (max-width: 458px) {
+  .aboutMe {
+    padding: 0;
+  }
+  .experience .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .card-well {
+    padding: 0;
+  }
   .btn {
     padding: 0.95rem;
   }
