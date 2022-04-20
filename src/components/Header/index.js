@@ -1,4 +1,4 @@
-import pfp from "../../assets/JacobNordan-3.jpg";
+import pfp from "../../assets/JacobNordan-3.webp";
 
 function Header() {
   return (
@@ -13,7 +13,7 @@ function Header() {
         </h1>
       </div>
     </div>
-  )
-};
+  );
+}
 
 export default Header;
