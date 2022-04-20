@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jacobnordanportfolio/static/css/main.c0d51686.css",
-    "main.js": "/jacobnordanportfolio/static/js/main.a8cc01ae.js",
+    "main.css": "/jacobnordanportfolio/static/css/main.8e5e9013.css",
+    "main.js": "/jacobnordanportfolio/static/js/main.c3890d79.js",
     "static/js/787.21b8239c.chunk.js": "/jacobnordanportfolio/static/js/787.21b8239c.chunk.js",
     "static/media/JacobNordan-3.webp": "/jacobnordanportfolio/static/media/JacobNordan-3.1d43c8a778d58cd57e41.webp",
     "static/media/Shoe-Fanatic.webp": "/jacobnordanportfolio/static/media/Shoe-Fanatic.27cd27a82b298f5b4af1.webp",
@@ -14,12 +14,12 @@
     "static/media/PasswordGen.webp": "/jacobnordanportfolio/static/media/PasswordGen.6023bd3352bf068fc2d4.webp",
     "static/media/fitness.webp": "/jacobnordanportfolio/static/media/fitness.a91d3bc05c8a036c1cb0.webp",
     "index.html": "/jacobnordanportfolio/index.html",
-    "main.c0d51686.css.map": "/jacobnordanportfolio/static/css/main.c0d51686.css.map",
-    "main.a8cc01ae.js.map": "/jacobnordanportfolio/static/js/main.a8cc01ae.js.map",
+    "main.8e5e9013.css.map": "/jacobnordanportfolio/static/css/main.8e5e9013.css.map",
+    "main.c3890d79.js.map": "/jacobnordanportfolio/static/js/main.c3890d79.js.map",
     "787.21b8239c.chunk.js.map": "/jacobnordanportfolio/static/js/787.21b8239c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0d51686.css",
-    "static/js/main.a8cc01ae.js"
+    "static/css/main.8e5e9013.css",
+    "static/js/main.c3890d79.js"
   ]
 }
