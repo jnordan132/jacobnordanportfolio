@@ -23,28 +23,28 @@ function Nav() {
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <Link class="category" to="about" spy={false}>
+                  <Link class="category" to="about" offset={-50}>
                     <a href="about" class="nav-link active">
                       About
                     </a>
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <Link class="category" to="skills" spy={false}>
+                  <Link class="category" to="skills" offset={-50}>
                     <a href="skills" class="nav-link active">
                       Skills
                     </a>
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <Link class="category" to="portfolio" spy={false}>
+                  <Link class="category" to="portfolio" offset={-50}>
                     <a href="portfolio" class="nav-link active">
                       Portfolio
                     </a>
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <Link class="category" to="experience" spy={false}>
+                  <Link class="category" to="experience" offset={-50}>
                     <a href="experience" class="nav-link active">
                       Experience
                     </a>

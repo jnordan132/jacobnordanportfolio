@@ -552,16 +552,12 @@ a {
     width: 60px;
     margin: 7px;
   }
-}
-
-@media screen and (max-width: 616px) {
-  .skills img {
-    width: 55px;
-    margin: 6px;
+  .skills {
+    margin-top: 3rem;
   }
 }
 
-@media screen and (max-width: 456px) {
+@media screen and (max-width: 481px) {
   .skills img {
     width: 50px;
     margin: 6px;
@@ -657,13 +653,19 @@ a {
 
 @media screen and (max-width: 613px) {
   .portfolio h1 {
-    margin-top: 45rem;
+    margin-top: 48rem;
   }
 }
 
 @media screen and (max-width: 550px) {
   .card:before {
     background-size: cover;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .portfolio h1 {
+    margin-top: 51rem;
   }
 }
 
@@ -680,6 +682,12 @@ a {
   .card:before {
     background-size: cover;
     height: 100%;
+  }
+}
+
+@media screen and (max-width: 473px) {
+  .portfolio h1 {
+    margin-top: 53rem;
   }
 }
 
@@ -700,6 +708,19 @@ a {
   }
   .page-content {
     grid-gap: 0.3rem;
+  }
+}
+@media screen and (max-width: 442px) {
+  .btn {
+    padding: 0.95rem;
+  }
+  .flex {
+    display: flex;
+    margin: 0;
+  }
+  .content {
+    margin: 0;
+    padding: 0;
   }
 }
 
