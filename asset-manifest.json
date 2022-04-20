@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/jacobnordanportfolio/static/css/main.77dedf83.css",
-    "main.js": "/jacobnordanportfolio/static/js/main.f8937256.js",
+    "main.css": "/jacobnordanportfolio/static/css/main.75e8c9a1.css",
+    "main.js": "/jacobnordanportfolio/static/js/main.a7851882.js",
     "static/js/787.21b8239c.chunk.js": "/jacobnordanportfolio/static/js/787.21b8239c.chunk.js",
-    "static/media/Shoe-Fanatic.png": "/jacobnordanportfolio/static/media/Shoe-Fanatic.4ef7e3259f9d5ac94574.png",
-    "static/media/JacobNordan-3.jpg": "/jacobnordanportfolio/static/media/JacobNordan-3.eb0f07284b7ac196edc9.jpg",
-    "static/media/Feedit.png": "/jacobnordanportfolio/static/media/Feedit.7d2c48d3bbdbb486ce42.png",
-    "static/media/PasswordGen.png": "/jacobnordanportfolio/static/media/PasswordGen.ca6843230b4c0a349c67.png",
-    "static/media/KB.png": "/jacobnordanportfolio/static/media/KB.67b10b3cf8771543b909.png",
-    "static/media/employeeTracker.jpg": "/jacobnordanportfolio/static/media/employeeTracker.96d7dd9c55a50759ac92.jpg",
-    "static/media/weather.png": "/jacobnordanportfolio/static/media/weather.d294e7ab817ed196a868.png",
-    "static/media/fitness.jpg": "/jacobnordanportfolio/static/media/fitness.6a8ff6054a88259601c0.jpg",
-    "static/media/codeQuiz.png": "/jacobnordanportfolio/static/media/codeQuiz.6bffb4c765009680366c.png",
-    "static/media/NoteTaker.png": "/jacobnordanportfolio/static/media/NoteTaker.b72a96bf8a39949081eb.png",
+    "static/media/JacobNordan-3.webp": "/jacobnordanportfolio/static/media/JacobNordan-3.1d43c8a778d58cd57e41.webp",
+    "static/media/Shoe-Fanatic.webp": "/jacobnordanportfolio/static/media/Shoe-Fanatic.27cd27a82b298f5b4af1.webp",
+    "static/media/weather.webp": "/jacobnordanportfolio/static/media/weather.0255ac949c14fc73a332.webp",
+    "static/media/Feedit.webp": "/jacobnordanportfolio/static/media/Feedit.7d206db4840067a4672e.webp",
+    "static/media/employeeTracker.webp": "/jacobnordanportfolio/static/media/employeeTracker.297fc32c5eaf345c07fd.webp",
+    "static/media/NoteTaker.webp": "/jacobnordanportfolio/static/media/NoteTaker.b4da7333971676630d23.webp",
+    "static/media/KB.webp": "/jacobnordanportfolio/static/media/KB.b1f15fee1158e2276cfa.webp",
+    "static/media/codeQuiz.webp": "/jacobnordanportfolio/static/media/codeQuiz.ca6d69a5c85ba2db7675.webp",
+    "static/media/PasswordGen.webp": "/jacobnordanportfolio/static/media/PasswordGen.6023bd3352bf068fc2d4.webp",
+    "static/media/fitness.webp": "/jacobnordanportfolio/static/media/fitness.a91d3bc05c8a036c1cb0.webp",
     "index.html": "/jacobnordanportfolio/index.html",
-    "main.77dedf83.css.map": "/jacobnordanportfolio/static/css/main.77dedf83.css.map",
-    "main.f8937256.js.map": "/jacobnordanportfolio/static/js/main.f8937256.js.map",
+    "main.75e8c9a1.css.map": "/jacobnordanportfolio/static/css/main.75e8c9a1.css.map",
+    "main.a7851882.js.map": "/jacobnordanportfolio/static/js/main.a7851882.js.map",
     "787.21b8239c.chunk.js.map": "/jacobnordanportfolio/static/js/787.21b8239c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77dedf83.css",
-    "static/js/main.f8937256.js"
+    "static/css/main.75e8c9a1.css",
+    "static/js/main.a7851882.js"
   ]
 }
