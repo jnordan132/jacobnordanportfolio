@@ -13,8 +13,7 @@ function About() {
             help run todays most popular websites, I've developed applications
             ranging from E-commerce platforms to social media platforms to
             information management tools such as employee tracking systems and
-            secure password generators, Im a very quick learner with a deep
-            understanding of conceptual learning.
+            secure password generators.
           </p>
         </div>
       </div>
@@ -96,7 +95,7 @@ function About() {
         </div>
       </div>
     </div>
-  )
-};
+  );
+}
 
 export default About;

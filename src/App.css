@@ -722,8 +722,13 @@ a {
     padding-left: 0;
     padding-right: 0;
   }
+
+  .experience {
+    padding-bottom: 0;
+  }
   .card-well {
     padding: 0;
+    border-radius: 6%;
   }
   .btn {
     padding: 0.95rem;
