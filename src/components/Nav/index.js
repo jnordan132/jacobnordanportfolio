@@ -25,7 +25,7 @@ function Nav() {
                 <li class="nav-item">
                   <Link class="category" to="about" offset={-50}>
                     <a href="about" class="nav-link active">
-                      About
+                      About test
                     </a>
                   </Link>
                 </li>
