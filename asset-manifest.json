@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.c817498f.css",
+    "main.css": "/static/css/main.ee07c9a9.css",
     "main.js": "/static/js/main.9cb46aa8.js",
     "static/js/787.21b8239c.chunk.js": "/static/js/787.21b8239c.chunk.js",
     "static/media/JacobNordan-3.webp": "/static/media/JacobNordan-3.1d43c8a778d58cd57e41.webp",
@@ -15,12 +15,12 @@
     "static/media/PasswordGen.webp": "/static/media/PasswordGen.5ff3a1eb6ca7997f3ec7.webp",
     "static/media/FitnessTracker.webp": "/static/media/FitnessTracker.884be4a2bad2bd4c5946.webp",
     "index.html": "/index.html",
-    "main.c817498f.css.map": "/static/css/main.c817498f.css.map",
+    "main.ee07c9a9.css.map": "/static/css/main.ee07c9a9.css.map",
     "main.9cb46aa8.js.map": "/static/js/main.9cb46aa8.js.map",
     "787.21b8239c.chunk.js.map": "/static/js/787.21b8239c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c817498f.css",
+    "static/css/main.ee07c9a9.css",
     "static/js/main.9cb46aa8.js"
   ]
 }
