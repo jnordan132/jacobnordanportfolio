@@ -130,7 +130,7 @@ a {
 }
 
 .navbar-toggler.collapsed .toggler-icon {
-  background: linear-gradient(263deg, #2986f0, #33d6ff);
+  background: white;
 }
 
 /* HEADER */
@@ -156,6 +156,10 @@ a {
   text-align: center;
   margin-top: 6%;
   margin-right: 10rem;
+}
+
+.header a {
+  color: black;
 }
 
 .resume {
