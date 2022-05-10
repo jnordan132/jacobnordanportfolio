@@ -1,4 +1,5 @@
 import pfp from "../../assets/JacobNordan-3.webp";
+import resume from "../../assets/Jacob-Nordan-Resume.pdf";
 
 function Header() {
   return (
@@ -11,6 +12,11 @@ function Header() {
           Hi, I'm <b>Jacob Nordan</b>. A Fullstack Developer and Creative
           Thinker.
         </h1>
+        <a target="_blank" rel="noopener noreferrer" href={resume}>
+          <button className="resume">
+            <b>My Resume</b>
+          </button>
+        </a>
       </div>
     </div>
   );

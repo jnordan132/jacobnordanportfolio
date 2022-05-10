@@ -6,7 +6,7 @@ function Nav() {
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
-            <h4>Jacob Nordan</h4>
+            <h2>Jacob Nordan</h2>
             <button
               class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"
               type="button"
