@@ -32,50 +32,6 @@ const Experience = () => {
           </div>
         </div>
       </div>
-      {/* <div className="flex">
-        <div class="container">
-          <div class="row">
-            <div class="card-well">
-              <div class="row nomargin">
-                <div class="col workexperience dif">
-                  <div class="col text-center">
-                    <div>
-                      <h2>Car Wash Attendant - Splash N Dash</h2>
-                    </div>
-                    <div className="inline">
-                      <b>Aug 2018 - Mar 2020</b>
-                      <li>
-                        <b>Wilmington, North Carolina</b>
-                      </li>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="card-well">
-              <div class="row nomargin">
-                <div class="col workexperience dif">
-                  <div class="col text-center">
-                    <div>
-                      <h2>Sales Associate - JourneysKidz</h2>
-                    </div>
-                    <div className="inline">
-                      <b>Jun 2018 - Feb 2019</b>
-                      <li>
-                        <b>Wilmington, North Carolina</b>
-                      </li>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };

@@ -306,8 +306,6 @@ a {
 /* EXPERIENCE */
 
 .workexperience {
-  display: flex;
-  align-items: center;
   margin: 0.75rem;
   box-shadow: 0 7px 2px -5px rgb(255, 255, 255);
   background-color: rgb(88, 88, 88);
@@ -541,17 +539,23 @@ a {
     width: 50px;
     margin: 6px;
   }
+  .portfolio h1 {
+    margin-top: 49rem;
+  }
 }
 
 @media screen and (max-width: 473px) {
   .portfolio h1 {
-    margin-top: 53rem;
+    margin-top: 50rem;
   }
 }
 
 @media screen and (max-width: 458px) {
   .aboutMe {
     padding: 0;
+  }
+  .aboutMe p {
+    font-size: 1rem;
   }
   .experience .container {
     padding-left: 0;
@@ -564,6 +568,9 @@ a {
   .card-well {
     padding: 0;
     border-radius: 6%;
+  }
+  .portfolio h1 {
+    margin-top: 43rem;
   }
 }
 
