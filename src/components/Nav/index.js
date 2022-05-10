@@ -11,8 +11,8 @@ function Nav() {
               class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
               aria-controls="navbarNav"
+              data-bs-target="#navbarNav"
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
