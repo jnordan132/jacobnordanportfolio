@@ -21,6 +21,7 @@ a {
   right: 0;
   left: 0;
   background: linear-gradient(90deg, #000000, #424242);
+  z-index: 1;
 }
 
 .navbar {
@@ -232,13 +233,70 @@ a {
 
 .portfolio h1 {
   text-align: center;
+  padding-bottom: 1.5rem;
 }
 
 .portfolio {
   margin-top: 22rem;
-  width: 80%;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
+}
+
+.card .buttons :hover {
+  transform: scale(1.02);
+}
+
+.portfolio .container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  width: auto;
+  height: 100%;
+  text-align: center;
+  flex: 1 1 20%;
+  background-color: rgb(88, 88, 88);
+  border-radius: 15px;
+  transition: 150ms;
+  border-top: 1px solid rgb(0, 0, 0, 0.11);
+  padding-top: 1rem;
+  padding-bottom: 1.5%;
+  margin-bottom: 2%;
+}
+
+.card img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-radius: 7px;
+  max-width: 100%;
+  transition: 150ms;
+  box-shadow: 0 0px 8px rgba(0, 0, 0, 0.51);
+}
+
+.card h2 {
+  margin-top: 5%;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.card button a {
+  text-decoration: none;
+  color: rgb(88, 88, 88);
+}
+
+.card button {
+  margin-left: 1%;
+  margin-right: 1%;
+  border-radius: 8px;
+  border: 2px solid rgb(88, 88, 88);
+  background-color: #fff;
+  font-size: 1.2rem;
 }
 
 /* EXPERIENCE */
@@ -352,6 +410,9 @@ a {
     margin-left: auto;
     margin-right: auto;
   }
+  .portfolio {
+    margin-top: 28rem;
+  }
   .intro {
     float: none;
     width: 50%;
@@ -369,6 +430,9 @@ a {
   }
   .skills img {
     width: 53px;
+  }
+  .portfolio .container {
+    grid-template-columns: auto auto;
   }
   .experience {
     width: 87%;
@@ -424,6 +488,9 @@ a {
   .profilePic img {
     margin-top: -1.5rem;
   }
+  .portfolio .container {
+    grid-template-columns: auto;
+  }
 }
 
 @media screen and (max-width: 617px) {
@@ -455,7 +522,7 @@ a {
     padding-right: 0rem;
   }
   .experience {
-    margin-top: -3rem;
+    margin-top: 3rem;
   }
 }
 
