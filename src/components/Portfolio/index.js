@@ -58,7 +58,7 @@ function Portfolio() {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://kibarake.herokuapp.com/"
+                href="https://jnordan132.github.io/Kibarake-Social-Site/"
               >
                 Site
               </a>
