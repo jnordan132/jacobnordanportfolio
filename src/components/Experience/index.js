@@ -9,15 +9,17 @@ const Experience = () => {
           <div class="card-well">
             <div class="row nomargin">
               <div class="col workexperience dif">
-                <div class="col text-center">
-                  <div>
-                    <h2>Tutor - 2U</h2>
-                  </div>
-                  <div className="inline">
-                    <b>Apr 2022 - Present</b>
-                    <li>
-                      <b>Remote</b>
-                    </li>
+                <div class="col text-center work">
+                  <div class="info">
+                    <div>
+                      <h2>2U</h2>
+                    </div>
+                    <div className="inline">
+                      <b>Apr 2022 - Present</b>
+                      <li>
+                        <b>Remote</b>
+                      </li>
+                    </div>
                   </div>
                   <p>
                     As a Tutor for 2U Full Stack Web Development Boot Camp's, I

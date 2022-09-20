@@ -20,12 +20,12 @@ a {
   top: 0;
   right: 0;
   left: 0;
-  background: linear-gradient(90deg, #000000, #424242);
+  background: rgb(231, 231, 231);
   z-index: 1;
 }
 
 .navbar {
-  border-bottom: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(0, 0, 0);
   font-size: 20px;
 }
 
@@ -39,7 +39,7 @@ a {
 
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show > .nav-link {
-  color: rgb(255, 255, 255);
+  color: rgb(51, 87, 139);
 }
 
 .navbar-light:hover .navbar-nav:hover .nav-link.active:hover,
@@ -48,7 +48,7 @@ a {
 }
 
 .nav-link .active {
-  color: white;
+  color: rgb(51, 87, 139);
 }
 
 .navbar-toggler {
@@ -59,7 +59,7 @@ a {
 }
 
 .active {
-  color: white;
+  color: rgb(51, 87, 139);
 }
 
 .navbar-toggler,
@@ -130,7 +130,7 @@ a {
 }
 
 .navbar-toggler.collapsed .toggler-icon {
-  background: white;
+  background: rgb(51, 87, 139);
 }
 
 /* HEADER */
@@ -146,7 +146,7 @@ a {
   height: 350px;
   width: 350px;
   border-radius: 50%;
-  border: 2px solid black;
+  border: 3px solid rgb(51, 87, 139);
   margin-left: 10rem;
 }
 
@@ -156,6 +156,11 @@ a {
   text-align: center;
   margin-top: 6%;
   margin-right: 10rem;
+  color: black;
+}
+
+b {
+  color: rgb(51, 87, 139);
 }
 
 .header a {
@@ -163,7 +168,10 @@ a {
 }
 
 .resume {
-  border: none;
+  border-radius: 8px;
+  border: 2px solid rgb(8, 31, 63);
+  background-color: rgb(51, 87, 139);
+  color: white;
   margin-top: 10px;
   border-radius: 5%;
   letter-spacing: 0.05rem;
@@ -171,6 +179,10 @@ a {
   padding-right: 0.5rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.resume b {
+  color: white;
 }
 
 /* ABOUT/SKILLS */
@@ -190,7 +202,6 @@ a {
   float: left;
   width: 45%;
   border-radius: 6%;
-  background-color: rgb(88, 88, 88);
 }
 
 .about h1 {
@@ -202,7 +213,9 @@ a {
   padding-right: 3%;
 }
 .aboutMe p {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: black;
 }
 
 /* SKILLS */
@@ -214,8 +227,6 @@ a {
   float: right;
   width: 45%;
   border-radius: 6%;
-  background-color: rgb(88, 88, 88);
-  /* border: 1px solid black; */
 }
 
 .skills h1 {
@@ -233,6 +244,68 @@ a {
   margin-right: 13px;
 }
 
+/* EXPERIENCE */
+
+.workexperience {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 7px 2px -5px rgb(231, 231, 231);
+}
+
+.workexperience.dif {
+  box-shadow: none;
+}
+
+.card-well {
+  background-color: rgb(231, 231, 231);
+  padding-top: 15px;
+}
+
+.nomargin {
+  margin: 0;
+}
+
+.experience {
+  margin-top: 22rem;
+  border-radius: 6%;
+  padding-top: 1%;
+  width: 60%;
+}
+
+.experience h1 {
+  text-align: center;
+}
+
+.work {
+  display: flex;
+}
+
+.info {
+  width: 40%;
+  margin-top: 0.85rem;
+}
+
+.text-center p {
+  text-align: left;
+  color: black;
+  padding: 1rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.experience .container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+}
+
 /* PORTFOLIO */
 
 .portfolio h1 {
@@ -241,7 +314,8 @@ a {
 }
 
 .portfolio {
-  margin-top: 22rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -264,10 +338,10 @@ a {
   height: 100%;
   text-align: center;
   flex: 1 1 20%;
-  background-color: rgb(88, 88, 88);
+  background-color: rgb(231, 231, 231);
   border-radius: 15px;
   transition: 150ms;
-  border-top: 1px solid rgb(0, 0, 0, 0.11);
+  border: none;
   padding-top: 1rem;
   padding-bottom: 1.5%;
   margin-bottom: 2%;
@@ -280,90 +354,27 @@ a {
   border-radius: 7px;
   max-width: 100%;
   transition: 150ms;
-  box-shadow: 0 0px 8px rgba(0, 0, 0, 0.51);
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.51);
 }
 
 .card h2 {
   margin-top: 5%;
   font-size: 1.5rem;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .card button a {
   text-decoration: none;
-  color: rgb(88, 88, 88);
+  color: rgb(255, 255, 255);
 }
 
 .card button {
   margin-left: 1%;
   margin-right: 1%;
   border-radius: 8px;
-  border: 2px solid rgb(88, 88, 88);
-  background-color: #fff;
+  border: 2px solid rgb(8, 31, 63);
+  background-color: rgb(51, 87, 139);
   font-size: 1.2rem;
-}
-
-/* EXPERIENCE */
-
-.workexperience {
-  margin: 0.75rem;
-  box-shadow: 0 7px 2px -5px rgb(255, 255, 255);
-  background-color: rgb(88, 88, 88);
-}
-.workexperience.dif {
-  box-shadow: none;
-}
-
-.card-well {
-  background-color: #fff;
-  padding-top: 15px;
-  background-color: rgb(88, 88, 88);
-}
-
-.nomargin {
-  margin: 0;
-}
-
-.experience {
-  margin-top: 5rem;
-  margin-bottom: 4rem;
-  border-radius: 6%;
-  background-color: rgb(88, 88, 88);
-  /* border: 1px solid black; */
-  padding-top: 1%;
-  padding-bottom: 1rem;
-  width: 50%;
-}
-
-.experience h1 {
-  text-align: center;
-}
-
-.text-center p {
-  padding: 1rem;
-  font-size: 1.2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.inline {
-  display: inline-flex;
-}
-
-.inline li {
-  margin-left: 1rem;
-}
-
-.experience .container {
-  /* min-height: 80vh; */
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.flex {
-  display: flex;
 }
 
 /* FOOTER */
@@ -398,6 +409,33 @@ a {
   }
   .page-content {
     grid-template-columns: auto auto;
+  }
+  .experience {
+    margin-top: 25rem;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .work {
+    display: block;
+  }
+  .info {
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .inline {
+    display: flex;
+    margin-top: 0.45rem;
+    margin-left: 1rem;
+  }
+  .inline li {
+    margin-left: 1rem;
+  }
+  .experience p {
+    text-align: center;
   }
 }
 
@@ -438,8 +476,11 @@ a {
   }
   .experience {
     width: 87%;
-    margin-top: 4rem;
+    margin-top: 27rem;
     margin-bottom: 2rem;
+  }
+  .portfolio {
+    margin-top: 2rem;
   }
 }
 
@@ -450,8 +491,8 @@ a {
 }
 
 @media screen and (max-width: 1062px) {
-  .portfolio h1 {
-    margin-top: 25rem;
+  .portfolio {
+    margin-top: 2rem;
   }
 }
 
@@ -459,8 +500,8 @@ a {
   .navbar-nav {
     text-align: center;
   }
-  .portfolio h1 {
-    margin-top: 49rem;
+  .portfolio {
+    margin-top: 2.5rem;
   }
   .intro {
     width: 60%;
@@ -477,6 +518,15 @@ a {
   .skills img {
     margin: 9px;
     width: 80px;
+  }
+  .work {
+    display: block;
+  }
+  .experience {
+    margin-top: 50rem;
+  }
+  .workexperience p {
+    text-align: center;
   }
 }
 
@@ -512,12 +562,6 @@ a {
   }
 }
 
-@media screen and (max-width: 613px) {
-  .portfolio h1 {
-    margin-top: 48rem;
-  }
-}
-
 @media screen and (max-width: 548px) {
   .text-center p {
     padding-left: 0rem;
@@ -528,25 +572,10 @@ a {
   }
 }
 
-@media screen and (max-width: 545px) {
-  .portfolio h1 {
-    margin-top: 51rem;
-  }
-}
-
 @media screen and (max-width: 481px) {
   .skills img {
     width: 50px;
     margin: 6px;
-  }
-  .portfolio h1 {
-    margin-top: 49rem;
-  }
-}
-
-@media screen and (max-width: 473px) {
-  .portfolio h1 {
-    margin-top: 50rem;
   }
 }
 
@@ -568,9 +597,6 @@ a {
   .card-well {
     padding: 0;
     border-radius: 6%;
-  }
-  .portfolio h1 {
-    margin-top: 43rem;
   }
 }
 

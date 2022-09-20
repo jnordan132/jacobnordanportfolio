@@ -16,7 +16,7 @@ function Footer() {
           >
             <GitHubIcon
               alt="github"
-              sx={{ width: 40, height: 40, color: "white" }}
+              sx={{ width: 40, height: 40, color: "black" }}
             />
           </a>
           <a
@@ -26,17 +26,17 @@ function Footer() {
           >
             <LinkedInIcon
               alt="linkedin"
-              sx={{ width: 40, height: 40, color: "white" }}
+              sx={{ width: 40, height: 40, color: "black" }}
             />
           </a>
           <a href="mailto:jacob.nordan113322@gmail.com">
             <AlternateEmailIcon
               alt="gmail"
-              sx={{ width: 40, height: 40, color: "white" }}
+              sx={{ width: 40, height: 40, color: "black" }}
             />
           </a>
         </div>
-        <p>© 2022 Jacob Nordan - All rights reserved.</p>
+        <p>© 2022 Jacob Nordan | All rights reserved.</p>
       </div>
     </div>
   );
