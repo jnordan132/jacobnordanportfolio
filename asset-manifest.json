@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ca44d40.css",
-    "main.js": "/static/js/main.844164e3.js",
+    "main.css": "/static/css/main.dfbdabe8.css",
+    "main.js": "/static/js/main.00d369a9.js",
     "static/js/787.21b8239c.chunk.js": "/static/js/787.21b8239c.chunk.js",
+    "static/media/movieWiki.png": "/static/media/movieWiki.3842b8e166e178643b1e.png",
+    "static/media/FCPLLC.png": "/static/media/FCPLLC.2d7db0895c9cd211710f.png",
     "static/media/JacobNordan-3.webp": "/static/media/JacobNordan-3.1d43c8a778d58cd57e41.webp",
     "static/media/ShoeFanatic.webp": "/static/media/ShoeFanatic.7d9c07a3db4885d23d7a.webp",
-    "static/media/EmployeeTracker.webp": "/static/media/EmployeeTracker.b0fcf2eb4da719481bad.webp",
+    "static/media/employeeTracker.webp": "/static/media/employeeTracker.b0fcf2eb4da719481bad.webp",
     "static/media/WeatherDashboard.webp": "/static/media/WeatherDashboard.499b5d47de190a7bbbbb.webp",
-    "static/media/FEEDIT.webp": "/static/media/FEEDIT.aa837938130a9b9daae2.webp",
+    "static/media/Feedit.webp": "/static/media/Feedit.aa837938130a9b9daae2.webp",
     "static/media/Jacob-Nordan-Resume.pdf": "/static/media/Jacob-Nordan-Resume.3c26e270670be440134b.pdf",
     "static/media/KBSocialDirectory.webp": "/static/media/KBSocialDirectory.750a1ff89b40f8e2ee14.webp",
     "static/media/NoteTaker.webp": "/static/media/NoteTaker.78bb5a82645b811d8a63.webp",
-    "static/media/CodeQuiz.webp": "/static/media/CodeQuiz.a166513711ec5046f221.webp",
     "static/media/PasswordGen.webp": "/static/media/PasswordGen.5ff3a1eb6ca7997f3ec7.webp",
-    "static/media/FitnessTracker.webp": "/static/media/FitnessTracker.884be4a2bad2bd4c5946.webp",
     "index.html": "/index.html",
-    "main.1ca44d40.css.map": "/static/css/main.1ca44d40.css.map",
-    "main.844164e3.js.map": "/static/js/main.844164e3.js.map",
+    "main.dfbdabe8.css.map": "/static/css/main.dfbdabe8.css.map",
+    "main.00d369a9.js.map": "/static/js/main.00d369a9.js.map",
     "787.21b8239c.chunk.js.map": "/static/js/787.21b8239c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ca44d40.css",
-    "static/js/main.844164e3.js"
+    "static/css/main.dfbdabe8.css",
+    "static/js/main.00d369a9.js"
   ]
 }
