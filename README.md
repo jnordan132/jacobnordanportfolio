@@ -12,5 +12,5 @@ To develop my portfolio website, I took advantage of React and Matieral UI to ma
 
 ## Screenshot
 
+![newPortfolio](https://user-images.githubusercontent.com/81433664/191338203-383cdb63-fbbe-4faf-884f-d4d9a45ab684.png)
 
-![Portfolio](https://user-images.githubusercontent.com/81433664/170790586-386152a2-4b7d-4a34-afab-880a3bb20b19.png)
