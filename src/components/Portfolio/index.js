@@ -1,5 +1,5 @@
 import FCP from "../../assets/FCPLLC.png";
-import movieWiki from "../../assets/movieWiki.png";
+import movieWiki from "../../assets/MovieWikiHome.png";
 import ShoeFanatic from "../../assets/ShoeFanatic.webp";
 import Feedit from "../../assets/Feedit.webp";
 import KB from "../../assets/KBSocialDirectory.webp";
@@ -58,7 +58,7 @@ function Portfolio() {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://jnordan132.github.io/TMDB-Movie-Search/"
+                href="https://moviewiki.herokuapp.com/"
               >
                 Site
               </a>
