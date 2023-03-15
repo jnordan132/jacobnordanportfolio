@@ -1,5 +1,5 @@
 import pfp from "../../assets/JacobNordan-3.webp";
-import resume from "../../assets/Jacob-Nordan-Resume.pdf";
+import resume from "../../assets/Resume.pdf";
 
 function Header() {
   return (
