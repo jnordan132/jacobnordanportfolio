@@ -1,4 +1,4 @@
-import FCP from "../../assets/FCPLLC.png";
+import FCP from "../../assets/FirstClassPaint.png";
 import movieWiki from "../../assets/MovieWikiHome.png";
 import ShoeFanatic from "../../assets/ShoeFanatic.webp";
 import Feedit from "../../assets/Feedit.webp";
@@ -23,7 +23,7 @@ function Portfolio() {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/jnordan132/FirstClassPainting"
+                href="https://github.com/jnordan132/FirstClassPaintingLLC"
               >
                 Code
               </a>
