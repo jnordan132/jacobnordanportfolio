@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dfbdabe8.css",
-    "main.js": "/static/js/main.763f63b7.js",
+    "main.css": "/static/css/main.31e2530b.css",
+    "main.js": "/static/js/main.676c829b.js",
     "static/js/787.21b8239c.chunk.js": "/static/js/787.21b8239c.chunk.js",
     "static/media/MovieWikiHome.png": "/static/media/MovieWikiHome.64de6a07b78ffbc711d3.png",
     "static/media/FirstClassPaint.png": "/static/media/FirstClassPaint.24f56d779815a370d920.png",
@@ -15,12 +15,12 @@
     "static/media/NoteTaker.webp": "/static/media/NoteTaker.78bb5a82645b811d8a63.webp",
     "static/media/PasswordGen.webp": "/static/media/PasswordGen.5ff3a1eb6ca7997f3ec7.webp",
     "index.html": "/index.html",
-    "main.dfbdabe8.css.map": "/static/css/main.dfbdabe8.css.map",
-    "main.763f63b7.js.map": "/static/js/main.763f63b7.js.map",
+    "main.31e2530b.css.map": "/static/css/main.31e2530b.css.map",
+    "main.676c829b.js.map": "/static/js/main.676c829b.js.map",
     "787.21b8239c.chunk.js.map": "/static/js/787.21b8239c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfbdabe8.css",
-    "static/js/main.763f63b7.js"
+    "static/css/main.31e2530b.css",
+    "static/js/main.676c829b.js"
   ]
 }
