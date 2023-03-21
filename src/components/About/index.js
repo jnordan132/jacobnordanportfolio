@@ -5,13 +5,13 @@ function About() {
         <h1>About Me</h1>
         <div className="aboutMe">
           <p>
-            My name is Jacob Nordan, I'm from Wilmington, NC, and I'm a Full
-            Stack Web Developer with a focus on front-end technologies, I
+            My name is Jacob Nordan and I'm from Wilmington, NC. I'm a Full
+            Stack Web Developer with a primary focus on the MERN tech stack. I
             completed the University of North Carolina at Chapel Hills Full
-            Stack Coding Bootcamp, and have had the opportunity to develope
-            applications ranging from E-commerce platforms to social media
+            Stack Coding Bootcamp. I have had the opportunity to develop
+            applications ranging from E-commerce platforms and social media
             platforms to information management tools such as employee tracking
-            systems and secure password generators.
+            systems.
           </p>
         </div>
       </div>

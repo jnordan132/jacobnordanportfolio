@@ -13,20 +13,22 @@ const Experience = () => {
                   <div class="info">
                     <div>
                       <h2>2U</h2>
+                      <h4>Senior Tutor</h4>
                     </div>
                     <div className="inline">
                       <b>Apr 2022 - Present</b>
-                      <li>
-                        <b>Remote</b>
-                      </li>
                     </div>
                   </div>
                   <p>
-                    As a Tutor for 2U Full Stack Web Development Boot Camp's, I
-                    help students with critical thinking and better
-                    understanding of different coding problems that may arise
-                    during homework's, class activities, and topics that they
-                    may be having trouble understanding.
+                    <li>Completed over 800 tutor sessions</li>
+                    <li>Responsible for 200+ students</li>
+                    <li>
+                      Help guide students through problem solving on their own
+                    </li>
+                    <li>
+                      Tutor students 1:1 weekly, to discuss and go over web
+                      development concepts that they may be struggling to grasp
+                    </li>
                   </p>
                 </div>
               </div>
