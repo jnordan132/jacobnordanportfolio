@@ -1,0 +1,55 @@
+[
+  {
+    "name": "First Class Painting LLC",
+    "image": "./assets/FirstClassPaint.png",
+    "github": "https://github.com/jnordan132/FirstClassPaintingLLC",
+    "live": "https://firstclasspaintingllc.org/"
+  },
+  {
+    "name": "Movie Wiki",
+    "image": "./assets/MovieWikiHome.png",
+    "github": "https://github.com/jnordan132/TMDB-Movie-Search",
+    "live": "https://moviewiki.herokuapp.com/"
+  },
+  {
+    "name": "Shoe Fanatic",
+    "image": "./assets/ShoeFanatic.webp",
+    "github": "https://github.com/jnordan132/Shoe-Fanatic",
+    "live": "https://limitless-bastion-50224.herokuapp.com/"
+  },
+  {
+    "name": "Feedit",
+    "image": "./assets/Feedit.webp",
+    "github": "https://github.com/jnordan132/FEEDIT",
+    "live": "https://jnordan132.github.io/FEEDIT/"
+  },
+  {
+    "name": "Social Media Directory",
+    "image": "./assets/KBSocialDirectory.webp",
+    "github": "https://github.com/jnordan132/Kibarake-Social-Site",
+    "live": "https://jnordan132.github.io/Kibarake-Social-Site/"
+  },
+  {
+    "name": "Weather Dashboard",
+    "image": "./assets/WeatherDashboard.webp",
+    "github": "https://github.com/jnordan132/City-Weather-Dashboard",
+    "live": "https://jnordan132.github.io/City-Weather-Dashboard/"
+  },
+  {
+    "name": "Password Generator",
+    "image": "./assets/PasswordGen.webp",
+    "github": "https://github.com/jnordan132/Password-Generator",
+    "live": "https://jnordan132.github.io/Password-Generator/"
+  },
+  {
+    "name": "Note Taker",
+    "image": "./assets/NoteTaker.webp",
+    "github": "https://github.com/jnordan132/Note-Taker",
+    "live": "https://note-taker-jacobnordan.herokuapp.com/notes"
+  },
+  {
+    "name": "Employee Tracker",
+    "image": "./assets/employeeTracker.webp",
+    "github": "https://github.com/jnordan132/Employee-Tracker"
+  }
+]

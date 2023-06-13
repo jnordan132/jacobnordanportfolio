@@ -20,8 +20,8 @@ const Experience = () => {
                     </div>
                   </div>
                   <p>
-                    <li>Completed over 800 tutor sessions</li>
-                    <li>Responsible for 200+ students</li>
+                    <li>Completed 1100+ tutor sessions</li>
+                    <li>Responsible for 250+ students</li>
                     <li>
                       Help guide students through problem solving on their own
                     </li>
