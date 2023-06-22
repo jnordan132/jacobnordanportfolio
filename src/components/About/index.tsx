@@ -10,7 +10,8 @@ export default function About() {
             My name is Jacob Nordan and I'm from Wilmington, NC. I'm a Full
             Stack Web Developer with a primary focus on the MERN tech stack. I
             completed the University of North Carolina at Chapel Hills Full
-            Stack Coding Bootcamp. I have had the opportunity to develop
+            Stack Coding Bootcamp in 2021, and have since been a tutor, and now
+            a senior tutor at 2U/EdX. I have had the opportunity to develop
             applications ranging from E-commerce platforms and social media
             platforms to information management tools such as employee tracking
             systems.
