@@ -1,4 +1,6 @@
-function About() {
+import * as React from "react";
+
+export default function About() {
   return (
     <div className="container aboutSkills">
       <div className="container about">
@@ -95,5 +97,3 @@ function About() {
     </div>
   );
 }
-
-export default About;

@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import Nav from "./components/Nav";
 import Header from "./components/Header";
 import About from "./components/About";
@@ -7,7 +7,7 @@ import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Nav />
@@ -24,5 +24,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

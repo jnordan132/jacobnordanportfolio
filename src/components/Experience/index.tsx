@@ -1,16 +1,16 @@
-import { FaFlag } from "react-icons/fa";
+import * as React from "react";
 
-const Experience = () => {
+export default function Experience() {
   return (
     <div className="container experience">
       <h1>Experience</h1>
-      <div class="container">
-        <div class="row">
-          <div class="card-well">
-            <div class="row nomargin">
-              <div class="col workexperience dif">
-                <div class="col text-center work">
-                  <div class="info">
+      <div className="container">
+        <div className="row">
+          <div className="card-well">
+            <div className="row nomargin">
+              <div className="col workexperience dif">
+                <div className="col text-center work">
+                  <div className="info">
                     <div>
                       <h2>2U</h2>
                       <h4>Senior Tutor</h4>
@@ -38,6 +38,4 @@ const Experience = () => {
       </div>
     </div>
   );
-};
-
-export default Experience;
+}
