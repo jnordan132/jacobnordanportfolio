@@ -6,6 +6,12 @@
     "live": "https://firstclasspaintingllc.org/"
   },
   {
+    "name": "Worded",
+    "image": "./assets/worded.png",
+    "github": "https://github.com/jnordan132/WordedWordleClone",
+    "live": "https://wordedwordleclone.netlify.app/"
+  },
+  {
     "name": "Movie Wiki",
     "image": "./assets/MovieWikiHome.png",
     "github": "https://github.com/jnordan132/TMDB-Movie-Search",
@@ -16,12 +22,6 @@
     "image": "./assets/ShoeFanatic.webp",
     "github": "https://github.com/jnordan132/Shoe-Fanatic",
     "live": "https://limitless-bastion-50224.herokuapp.com/"
-  },
-  {
-    "name": "Feedit",
-    "image": "./assets/Feedit.webp",
-    "github": "https://github.com/jnordan132/FEEDIT",
-    "live": "https://jnordan132.github.io/FEEDIT/"
   },
   {
     "name": "Social Media Directory",
